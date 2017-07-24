@@ -212,7 +212,6 @@ a{color: #000;text-decoration: none;}
 }
 .main .content.product .prd-box .prdName{
 	padding: 0;
-	padding-left: 10px;
 	font-size: 14px;
 	text-align: center;
 	height: 40px;
@@ -221,13 +220,13 @@ a{color: #000;text-decoration: none;}
 }
 .main .content.product .prd-box img{
 	width: 100%;
-	line-height: 200px;
 }
 .main .content.product .prd-box a{
 	display: block;
 	position: absolute;
-	width: 200px;
-	height: 240px;
+	/*width: 200px;*/
+	width: 100%;
+	height: 100%;
 	z-index: 999;
 	left: 0;
 	top: 0;
