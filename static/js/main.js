@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".btn.menu").click(function(){
+		$('.mu').show();
+		$('.navSlide').animate({left:"0"},300);
+	});
+	$('.mu').click(function(){
+		$(this).hide();
+		$('.navSlide').animate({left:"-50%"},300);
+	});
+});
